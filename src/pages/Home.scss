@@ -1,0 +1,59 @@
+// src/pages/Home.scss
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  /* bloco padrão, sem display:flex */
+}
+
+.home__header {
+  width: 100%;          /* ocupa toda a largura da janela */
+  background: #111;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+.home__title {
+  color: #f5f5f5;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.home__search {
+  padding: 1rem 2rem;
+  background: #f0f0f0;
+  text-align: center;
+
+  input {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+}
+
+.home__container {
+  background: #fff;
+  margin: 1rem 2rem;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.home__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.home__empty {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+}

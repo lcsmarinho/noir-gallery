@@ -1,0 +1,30 @@
+.saga {
+    padding: 2rem;
+  
+    &__heading {
+      text-align: center;
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+      text-transform: capitalize;
+    }
+  
+    &__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    &__back {
+      display: inline-block;
+      margin-top: 0.5rem;
+      text-decoration: none;
+      color: #333;
+      font-size: 0.9rem;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
