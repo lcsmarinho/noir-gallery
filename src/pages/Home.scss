@@ -2,6 +2,9 @@
 html, body {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .home {
@@ -9,7 +12,7 @@ html, body {
 }
 
 .home__header {
-  width: 100%;          /* ocupa toda a largura da janela */
+  width: 100vw;          /* ocupa toda a largura da janela */
   background: #111;
   padding: 1.5rem 2rem;
   text-align: center;
@@ -48,8 +51,12 @@ html, body {
 
 .home__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 25%));
   gap: 1rem;
+  width: 25%;
+  height: 25%;
+  color: #120a8f;
+  
 }
 
 .home__empty {

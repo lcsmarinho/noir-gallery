@@ -13,18 +13,24 @@
       grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
       gap: 1rem;
       margin-bottom: 1.5rem;
+      color: #120a8f;
     }
   
     &__back {
       display: inline-block;
       margin-top: 0.5rem;
       text-decoration: none;
-      color: #333;
+      color: #120a8f;
       font-size: 0.9rem;
-  
-      &:hover {
-        text-decoration: underline;
+      background-color: #fff;
+      border-radius: 16px;
+      padding: 7px;
+        &:hover {
+          transition: 700ms;
+          background-color:#120a8f;
+          color: #fff;
+        }
+
       }
     }
-  }
   

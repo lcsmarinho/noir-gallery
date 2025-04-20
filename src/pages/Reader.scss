@@ -11,10 +11,15 @@
   
       a {
         text-decoration: none;
-        color: #007acc;
+        color: #120a8f;
+        background-color: #fff;
+        padding: 0.5rem 1rem;
+        border-radius: 16px;
   
         &:hover {
-          text-decoration: underline;
+          transition: 700ms;
+          background-color: #120a8f;
+          color: #fff;
         }
       }
     }
@@ -28,10 +33,12 @@
       /* estilos básicos para markdown */
       h1, h2, h3, h4, h5, h6 {
         margin-top: 1.5rem;
+        color: black;
       }
   
       p {
         line-height: 1.6;
+        color: black;
       }
   
       a {
